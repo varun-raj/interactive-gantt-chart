@@ -1,0 +1,82 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.chart {
+  overflow-x: hidden;
+}
+.cp {
+  cursor: pointer;
+}
+.Single--Node {
+  fill: #fff;
+  stroke: #ccc;
+  stroke-width: 1;
+  border-radius: 10px;
+}
+
+.Title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.TermType, .Duration {
+  fill: #989898;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.second-title {
+  font-size: 13px;
+}
+
+.date-line {
+  stroke: #f5f5f5;
+  stroke-width: 1;
+}
+.Date-Block, .Date-Block-Outline {
+  fill: #fff;
+  stroke: #ccc;
+}
+.start-lines, .end-lines {
+  stroke-width: 1;
+}
+
+.gantt-wrapper{
+      display: flex;
+    flex-direction: column;
+  border: 1px solid #767676;
+    border-radius: 5px 5px 0px 0px;
+    height: 100vh;
+}
+
+.chart{
+    overflow: auto;
+}
+
+.gantt-top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.range-select p{
+  margin-left: 20px;
+}
+
+.gantt-top p,
+.gantt-top select,
+.gantt-top .range-select,
+.gantt-top button{
+  display: inline-block;
+}
+.empty_message_block {
+  border: #ccc;
+  border-radius: 4px;
+}
+
+
+.CurrentDay-Area {
+  stroke: #60bdf1;
+}
